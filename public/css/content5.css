@@ -1,0 +1,82 @@
+#content5 {
+    padding: 50px 0;
+}
+
+#content5 h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content5 p {
+    font-size: 17px;
+    font-weight: 400;
+    color: black;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content5 .card {
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#content5 .card:hover {
+    background-color: #FF6D0B;
+    color: white;
+}
+
+#content5 h2 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content5 h3 {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content5 .card-oval {
+    height: 120px;
+    width: 120px;
+    background-color: #FF6D0B;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content5 .card:hover .card-oval {
+    background-color: white;
+}
+
+#content5 .card-oval svg {
+    display: block;
+    width: 50%;
+    height: 50%;
+    color: white;
+}
+
+#content5 .card:hover .card-oval svg {
+    color: #FF6D0B;
+}
+
+@media (max-width: 768px) {
+
+    #content5 h1 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    #content5 p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    #content5 .for-margin{
+        margin: 0 10px;
+    }
+}

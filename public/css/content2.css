@@ -1,0 +1,92 @@
+#content2 {
+    padding: 50px 0;
+    background-color: #FF6D0B;
+}
+
+#content2 h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content2 p {
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content2 .large-input {
+    font-size: 18px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content2 .btn-cari {
+    background-color: rgb(21, 21, 21);
+    color: white;
+    font-size: 18px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    width: 100%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content2 .btn-cari:hover {
+    background-color: black;
+    color: white;
+}
+
+#content2 .btn-cari:active {
+    background-color: black;
+    color: white;
+}
+
+#content2 h2 {
+    font-size: 30px;
+    color: white;
+}
+
+#content2 h3 {
+    font-size: 25px;
+    color: white;
+}
+
+@media (max-width: 991px) {
+    #content2 .btn-cari {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    #content2 h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    #content2 p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    
+#content2 .large-input {
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+#content2 .btn-cari {
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+    #content2 h2 {
+        font-size: 22px;
+    }
+
+    #content2 h3 {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,61 @@
+#content11 {
+    padding: 50px 0;
+}
+
+#content11 h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content11 span {
+    color: #FF6D0B;
+}
+
+#content11 .card {
+    border-radius: 20px;
+    padding: 15px 30px;
+}
+
+#content11 h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+#content11 svg {
+    height: 25px;
+    width: 25px;
+    color: #FF6D0B;
+}
+
+#content11 p {
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+}
+
+@media (max-width: 768px) {
+
+    #content11 h1 {
+        color: black;
+        font-size: 30px;
+        font-weight: 800;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+
+    #content11 h2 {
+        font-size: 15px;
+        font-weight: 600;
+        color: black;
+    }
+
+
+    #content11 p {
+        font-size: 13px;
+        font-weight: 400;
+        color: gray;
+    }
+}

@@ -1,0 +1,97 @@
+#content4 {
+    padding: 50px 0;
+}
+
+#content4 h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content4 p {
+    font-size: 17px;
+    font-weight: 400;
+    color: black;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content4 .card {
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#content4 .card-title {
+    height: 100%;
+    margin-left: 10px;
+}
+
+#content4 h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content4 .subtitle {
+    font-size: 17px;
+    font-weight: 400;
+    color: black;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content4 .justify {
+    text-align: justify;
+}
+
+#content4 h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content4 h4 {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(52, 52, 52);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content4 span.teks-orange {
+    color: #FF6D0B;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+#content4 .btn-pesan {
+    background-color: #FF6D0B;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+#content4 .btn-pesan:hover {
+    background-color: #FF3D0B;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    #content4 h1 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    #content4 p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    #content4 .for-margin{
+        margin: 0 1px;
+    }
+}

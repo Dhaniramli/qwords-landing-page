@@ -1,0 +1,76 @@
+#content7 {
+    padding: 50px 0;
+}
+
+#content7 .card {
+    border-radius: 20px;
+    background-color: #FFF8F3;
+}
+
+#content7 .card-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: black;
+    z-index: 1;
+}
+
+#content7 .card img {
+    width: 50%;
+    height: auto;
+    margin-top: 250px;
+}
+
+#content7 .card-2 img {
+    width: 77%;
+    height: auto;
+    margin-top: 250px;
+}
+
+#content7 h1 {
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content7 p {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content7 span {
+    color: #FF6D0B;
+}
+
+#content7 .btn-lihat {
+    background-color: #FF6D0B;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+    #content7 {
+        padding: 30px 0;
+    }
+
+    #content7 .card {
+        margin: 0 10px;
+    }
+
+    #content7 h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    #content7 p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}

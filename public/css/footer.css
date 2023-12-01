@@ -1,0 +1,53 @@
+#footer {
+    padding: 50px 0;
+}
+
+#footer h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+#footer h2 {
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+
+#footer .teks a {
+    text-decoration: none;
+}
+
+#footer .teks a:hover h2 {
+    color: #FF6D0B;
+}
+
+#footer h2 {
+    text-align: center;
+}
+
+#footer h1 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    #footer {
+        padding: 0 10px;
+    }
+
+    #footer .logo {
+        padding: 0 30px;
+    }
+
+    #footer h1 {
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+    }
+
+    #footer h2 {
+        font-size: 13px;
+        font-weight: 400;
+        color: white;
+    }
+}

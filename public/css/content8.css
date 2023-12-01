@@ -1,0 +1,38 @@
+#content8 {
+    padding: 50px 0;
+}
+
+#content8 h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content8 a.moremore {
+    font-size: 18px;
+    color: #FF6D0B;
+    font-weight: 600;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+@media (max-width: 768px) {
+
+    #content8 h1 {
+        color: black;
+        font-size: 28px;
+        font-weight: 800;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    #content8 a.moremore {
+        font-size: 15px;
+        color: #FF6D0B;
+        font-weight: 600;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    #content8 .for-margin{
+        margin: 0 10px;
+    }
+}

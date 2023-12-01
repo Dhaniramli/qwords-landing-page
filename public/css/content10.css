@@ -1,0 +1,28 @@
+#content10 {
+    padding: 50px 0;
+}
+
+#content10 h1 {
+    font-size: 23px;
+    font-weight: 600;
+    color: black;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#content10 a.moremore {
+    font-size: 18px;
+    color: #FF6D0B;
+    font-weight: 600;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+@media (max-width: 768px) {
+
+    #content10 h1 {
+        font-size: 18px;
+        padding: 0 10px;
+        font-weight: 600;
+        color: black;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+}
